@@ -1,5 +1,5 @@
-//利用 reflect 技术把结构体的可 export 值复制到 v 中，v 必须是相似结构体的指针。
-//copy the exported value of a struct to v , with reflect.
+//利用 reflect 技术把结构体的可 export 值复制到 dst 中，dst 必须是相似结构体的指针。
+//copy the exported value of a struct to dst , with reflect.
 package gostructcopy
 
 import (
